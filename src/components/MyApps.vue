@@ -9,6 +9,6 @@ import GroupIcon from '@/components/icons/IconGroup.vue'
       <GroupIcon />
     </template>
     <template #heading>Forum App</template>
-    <a href="https://forum.chinh.ca/" target="_blank" rel="noopener">...in development >>></a>
+    <a href="https://forum.chinh.ca/" target="_blank" rel="noopener">{ in development }</a>
   </AppsItem>
 </template>
