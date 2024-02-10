@@ -1,6 +1,6 @@
 <script setup>
-import AppsItem from './AppsItem.vue'
-import GroupIcon from './icons/IconGroup.vue'
+import AppsItem from '@/components/AppsItem.vue'
+import GroupIcon from '@/components/icons/IconGroup.vue'
 </script>
 
 <template>
