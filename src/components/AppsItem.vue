@@ -7,12 +7,20 @@
       <h3>
         <slot name="heading"></slot>
       </h3>
-      <slot></slot>
+      <div class="link">
+        <slot name="link"></slot>
+      </div>
     </div>
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
+.link {
+  > a > span:first-child {
+    margin-right: 4px;
+  }
+}
+
 .item {
   margin-top: 2rem;
   display: flex;
@@ -59,7 +67,7 @@ h3 {
   }
 
   .item:before {
-    content: ' ';
+    content: " ";
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
@@ -68,7 +76,7 @@ h3 {
   }
 
   .item:after {
-    content: ' ';
+    content: " ";
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;

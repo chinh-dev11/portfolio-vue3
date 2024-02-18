@@ -6,6 +6,7 @@ import IconGraphicEq from '@/components/icons/IconGraphicEq.vue'
 import IconPreview from '@/components/icons/IconPreview.vue'
 import IconQuote from '@/components/icons/IconQuote.vue'
 import IconTimer from '@/components/icons/IconTimer.vue'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
@@ -14,7 +15,13 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconGroup />
     </template>
     <template #heading>Forum App</template>
-    <a href="https://forum.chinh.ca/" target="_blank" rel="noopener">{ in development }</a>
+    <template #link>
+      <a href="https://forum.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>Vue 3</span>
+      </a>
+      <span>(...WIP...)</span>
+    </template>
   </AppsItem>
   <!-- Pomodoro clock -->
   <AppsItem>
@@ -22,7 +29,12 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconTimer />
     </template>
     <template #heading>Pomodoro Clock</template>
-    <a href="https://pomodoro-clock.chinh.ca/" target="_blank" rel="noopener">{ React 16 }</a>
+    <template #link>
+      <a href="https://pomodoro-clock.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>React 16</span>
+      </a>
+    </template>
   </AppsItem>
   <!-- Calculator -->
   <AppsItem>
@@ -30,7 +42,12 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconCalculate />
     </template>
     <template #heading>Calculator</template>
-    <a href="https://calculator.chinh.ca/" target="_blank" rel="noopener">{ React 16 }</a>
+    <template #link>
+      <a href="https://calculator.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>React 16</span>
+      </a>
+    </template>
   </AppsItem>
   <!-- Drum machine -->
   <AppsItem>
@@ -38,7 +55,12 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconGraphicEq />
     </template>
     <template #heading>Drum Machine</template>
-    <a href="https://drum-machine.chinh.ca/" target="_blank" rel="noopener">{ React 16 }</a>
+    <template #link>
+      <a href="https://drum-machine.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>React 16</span>
+      </a>
+    </template>
   </AppsItem>
   <!-- Markdown previewer -->
   <AppsItem>
@@ -46,7 +68,12 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconPreview />
     </template>
     <template #heading>Markdown Previewer</template>
-    <a href="https://markdown-previewer.chinh.ca/" target="_blank" rel="noopener">{ React 16 }</a>
+    <template #link>
+      <a href="https://markdown-previewer.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>React 16</span>
+      </a>
+    </template>
   </AppsItem>
   <!-- Random quote -->
   <AppsItem>
@@ -54,10 +81,19 @@ import IconTimer from '@/components/icons/IconTimer.vue'
       <IconQuote />
     </template>
     <template #heading>Random Quote</template>
-    <a href="https://random-quote.chinh.ca/" target="_blank" rel="noopener">{ React 16 }</a>
+    <template #link>
+      <a href="https://random-quote.chinh.ca/" target="_blank" rel="noopener">
+        <span><FA icon="fa-right-from-bracket" /></span>
+        <span>React 16</span>
+      </a>
+    </template>
   </AppsItem>
   <!-- Burger builder: Firebase authentication requires updates/fixes -->
   <!-- Recipe book: requires updates -->
   <!-- Stock trader: requires updates -->
   <!-- Wonderful quotes: requires updates -->
 </template>
+
+<style scoped>
+@import 'material-icons/iconfont/filled.css';
+</style>

@@ -6,7 +6,7 @@ import MyApps from '@/components/MyApps.vue'
   <header>
     <div class="wrapper">
       <h1>Welcome to my Portfolio!</h1>
-      <p>... under construction.</p>
+      <p>under construction ...</p>
     </div>
   </header>
   <main>
