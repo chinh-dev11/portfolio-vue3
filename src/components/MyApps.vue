@@ -6,7 +6,6 @@ import IconGraphicEq from '@/components/icons/IconGraphicEq.vue'
 import IconPreview from '@/components/icons/IconPreview.vue'
 import IconQuote from '@/components/icons/IconQuote.vue'
 import IconTimer from '@/components/icons/IconTimer.vue'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <template>
@@ -94,6 +93,4 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
   <!-- Wonderful quotes: requires updates -->
 </template>
 
-<style scoped>
-@import 'material-icons/iconfont/filled.css';
-</style>
+<style scoped></style>
