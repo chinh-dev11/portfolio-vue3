@@ -19,7 +19,7 @@ import IconTimer from '@/components/icons/IconTimer.vue'
         <span><FA icon="fa-right-from-bracket" /></span>
         <span>Vue 3</span>
       </a>
-      <span>(...WIP...)</span>
+      <span>(...WiP...)</span>
     </template>
   </AppsItem>
   <!-- Pomodoro clock -->
